@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+  <title>Movie Database Search</title>
+</head>
+
+<body>
+  <form id="searchForm">
+    <div class="search__container">
+      <div class="search">
+        <span id="mySearch" class="search__icon material-symbols-outlined" onclick="onSearchChange(event)">search</span>
+        <input class="search__input" type="search" onkeydown="onSearchChange(event)" placeholder="Search Movie Titles">
+      </div>
+    </div>
+  </form>
+  <div class="container">
+    <div class="row">
+      <div class="movies-list">
+        <div class="movies">
+          <div class="movies-card">
+            
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
