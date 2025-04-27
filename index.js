@@ -20,10 +20,10 @@ async function renderMovies(id) {
 function movieHTML(movie) {
   return `<div class="movies-card">
             <div class="movie-card__container">
-                <h3>${movie.title}</h4>
-                    <p><b>Year:</b> ${movie.year}</p>
+                <h3>${movie.Title}</h4>
+                    <p><b>Year:</b> ${movie.Year}</p>
                      <p><b>Poster:</b> 
-                     <img src="${movie.poster}" alt=""></p>
+                     <img src="${movie.Poster}" alt=""></p>
                      <p>
             </div>
         </div>`
