@@ -2,7 +2,7 @@ const moviesListEl = document.querySelector(".movies-list");
 const id = localStorage.getItem("id")
 
 async function onSearchChange(event) {
-    const id = event.target.value;
+    const id = await event.target.value;
     renderMovies(id)
 }
 
